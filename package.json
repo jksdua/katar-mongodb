@@ -1,0 +1,35 @@
+{
+  "name": "katar-mongodb",
+  "version": "0.0.1",
+  "description": "MongoDb data adapter for katar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --bail --timeout 5000 ./node_modules/katar-db-test"
+  },
+  "custom": {
+    "testOptions": "localhost/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jksdua/katar-mongodb"
+  },
+  "keywords": [
+    "queue",
+    "katar",
+    "mongodb"
+  ],
+  "author": "Jaap Karan Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jksdua/katar-mongodb/issues"
+  },
+  "homepage": "https://github.com/jksdua/katar-mongodb",
+  "devDependencies": {
+    "mocha": "~1.18.0",
+    "katar-db-test": "~0.0.2"
+  },
+  "dependencies": {
+    "monk": "~0.8.1",
+    "co-monk": "~1.0.0"
+  }
+}
