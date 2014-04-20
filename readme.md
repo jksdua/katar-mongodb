@@ -1,7 +1,7 @@
 Katar MongoDb
 =============
 
-MongoDb data adapter for [https://github.com/jksdua/katar](katar)
+MongoDb data adapter for [katar](https://github.com/jksdua/katar "katar")
 
 
 Usage
